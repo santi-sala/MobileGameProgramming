@@ -1,6 +1,6 @@
 using System;
 
-namespace NotificationSamples
+namespace MobileNotifications
 {
     /// <summary>
     /// Any type that handles notifications for a specific game platform

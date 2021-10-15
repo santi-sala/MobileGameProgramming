@@ -2,7 +2,7 @@
 using System;
 using Unity.Notifications.Android;
 
-namespace NotificationSamples.Android
+namespace MobileNotifications.Android
 {
     /// <summary>
     /// Android implementation of <see cref="IGameNotificationsPlatform"/>.

@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace NotificationSamples
+namespace MobileNotifications
 {
     /// <summary>
     /// Cross-platform wrapper to represent channels for notifications.

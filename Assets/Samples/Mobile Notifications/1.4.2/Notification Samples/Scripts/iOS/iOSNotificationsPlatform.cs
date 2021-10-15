@@ -2,7 +2,7 @@
 using System;
 using Unity.Notifications.iOS;
 
-namespace NotificationSamples.iOS
+namespace MobileNotifications.iOS
 {
     /// <summary>
     /// iOS implementation of <see cref="IGameNotificationsPlatform"/>.
@@ -52,7 +52,7 @@ namespace NotificationSamples.iOS
 
         /// <inheritdoc />
         /// <summary>
-        /// Create a new <see cref="T:NotificationSamples.Android.AndroidNotification" />.
+        /// Create a new <see cref="T:MobileNotifications.Android.AndroidNotification" />.
         /// </summary>
         IGameNotification IGameNotificationsPlatform.CreateNotification()
         {
@@ -61,7 +61,7 @@ namespace NotificationSamples.iOS
 
         /// <inheritdoc />
         /// <summary>
-        /// Create a new <see cref="T:NotificationSamples.Android.AndroidNotification" />.
+        /// Create a new <see cref="T:MobileNotifications.Android.AndroidNotification" />.
         /// </summary>
         public iOSGameNotification CreateNotification()
         {

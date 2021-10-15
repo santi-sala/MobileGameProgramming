@@ -1,6 +1,6 @@
 using System;
 
-namespace NotificationSamples
+namespace MobileNotifications
 {
     /// <summary>
     /// Represents a notification that will be delivered for this application.

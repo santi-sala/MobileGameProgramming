@@ -1,7 +1,7 @@
 #if UNITY_ANDROID
 using UnityEngine;
 
-namespace NotificationSamples.Android
+namespace MobileNotifications.Android
 {
     /// <summary>
     /// Class for managing Android notification center extensions.

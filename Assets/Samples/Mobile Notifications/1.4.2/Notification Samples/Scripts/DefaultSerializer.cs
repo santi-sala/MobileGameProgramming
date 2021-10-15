@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace NotificationSamples
+namespace MobileNotifications
 {
     /// <summary>
     /// Standard serializer used by the <see cref="GameNotificationsManager"/> if no others

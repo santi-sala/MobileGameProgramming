@@ -4,13 +4,13 @@ using System.IO;
 using System.Linq;
 #if UNITY_ANDROID
 using Unity.Notifications.Android;
-using NotificationSamples.Android;
+using MobileNotifications.Android;
 #elif UNITY_IOS
-using NotificationSamples.iOS;
+using MobileNotifications.iOS;
 #endif
 using UnityEngine;
 
-namespace NotificationSamples
+namespace MobileNotifications
 {
     /// <summary>
     /// Global notifications manager that serves as a wrapper for multiple platforms' notification systems.

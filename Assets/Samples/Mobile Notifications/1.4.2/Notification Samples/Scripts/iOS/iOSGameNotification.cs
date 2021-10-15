@@ -4,7 +4,7 @@ using Unity.Notifications.iOS;
 using UnityEngine;
 using UnityEngine.Assertions;
 
-namespace NotificationSamples.iOS
+namespace MobileNotifications.iOS
 {
     /// <summary>
     /// iOS implementation of <see cref="IGameNotification"/>.

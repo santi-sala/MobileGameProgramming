@@ -3,7 +3,7 @@ using System;
 using Unity.Notifications.Android;
 using UnityEngine.Assertions;
 
-namespace NotificationSamples.Android
+namespace MobileNotifications.Android
 {
     /// <summary>
     /// Android specific implementation of <see cref="IGameNotification"/>.

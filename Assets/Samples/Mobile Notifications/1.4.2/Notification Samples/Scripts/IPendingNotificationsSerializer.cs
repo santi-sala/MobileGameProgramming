@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace NotificationSamples
+namespace MobileNotifications
 {
     /// <summary>
     /// Responsible for the serialization and deserialization of pending notifications for a

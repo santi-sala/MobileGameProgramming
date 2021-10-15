@@ -1,6 +1,6 @@
 using System;
 
-namespace NotificationSamples
+namespace MobileNotifications
 {
     /// <summary>
     /// Represents a notification that was scheduled with <see cref="GameNotificationsManager.ScheduleNotification"/>.
