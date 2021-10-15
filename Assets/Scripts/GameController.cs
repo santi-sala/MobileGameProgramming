@@ -32,7 +32,7 @@ public class GameController : MonoBehaviour
     {
         // Set the reference to 'this' game controller class instance.
         // This effectively makes this a singleton that may be called from other scripts.
-        /*Instance = this;*/
+        Instance = this;
     }
 
     // Update method is called every frame, if the MonoBehaviour is enabled.

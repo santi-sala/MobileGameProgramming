@@ -3,8 +3,8 @@ using UnityEngine;
 // Collision detecetion MonoBehaviour that should be attached to colliding objects.
 public class CollisionDetection : MonoBehaviour
 {
-    private bool hasTouchedWorldCollider = true;
-    private bool isDestroyed = true;
+    private bool hasTouchedWorldCollider = false;
+    private bool isDestroyed = false;
 
     // This method is automatically called each time a collision occurs with the game object that this script is attached to.
     private void OnCollisionEnter(Collision collision)
@@ -19,6 +19,7 @@ public class CollisionDetection : MonoBehaviour
         if (!hasTouchedWorldCollider && collision.gameObject.CompareTag("World"))
         {
             hasTouchedWorldCollider = true;
+            Debug.Log("Has touch world");
         }
 
         // If the object has collided with the world bound colliders, destroy it when it collides with a similar object.

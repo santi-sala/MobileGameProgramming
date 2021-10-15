@@ -1108,7 +1108,7 @@ MonoBehaviour:
     type: 3}
   capsulePrefab: {fileID: 8924346157632703968, guid: cba79fa48c84ae84c823ba4eeb618dcb,
     type: 3}
-  cylinderPrefab: {fileID: 8766545035343637781, guid: ecff35eb63ff147f0ab047256cee5cb7,
+  cylinderPrefab: {fileID: 9069405724804047016, guid: 3f4e7aa1c6c31e140b8e967f10bd16f6,
     type: 3}
 --- !u!1 &841057379
 GameObject:

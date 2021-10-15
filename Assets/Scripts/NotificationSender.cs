@@ -6,7 +6,7 @@ using UnityEngine;
 public enum NotificationId
 {
     AppBackgrounded = 100,
-    ButtonClicked = 100
+    ButtonClicked = 200
 }
 
 // This script handles sending local notifications using a sample GameNotificationsManager class.
@@ -68,7 +68,7 @@ public class NotificationSender : MonoBehaviour
     {
         string title = "You clicked a button!";
         string body = "Remember when you did that?";
-        int delay = 60;
+        int delay = 15;
 
         CancelNotification((int)NotificationId.ButtonClicked);
         ScheduleNotification((int)NotificationId.ButtonClicked, title, body, DateTime.Now.AddSeconds(delay));
